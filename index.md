@@ -10,6 +10,10 @@ window.MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
+---
+📄 This document is also available in [**Cantonese 中文（廣東話）** ➜](./README_Cantonese.md)
+---
+
 # TraplessPKE
 
 > **"Quantum computing won. Impressive. You cracked a ciphertext. But not my message."**
@@ -206,6 +210,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
