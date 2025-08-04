@@ -10,10 +10,6 @@ window.MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
----
-layout: default
----
-
 # TraplessPKE
 
 > **"Quantum won. Impressive. You got a message — just not mine."**
@@ -210,6 +206,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
