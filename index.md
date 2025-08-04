@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <script>
 window.MathJax = {
   tex: {
@@ -13,6 +9,10 @@ window.MathJax = {
   async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+
+---
+layout: default
+---
 
 # TraplessPKE
 
@@ -214,6 +214,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
