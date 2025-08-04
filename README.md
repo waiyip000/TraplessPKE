@@ -1,3 +1,7 @@
+---
+📄 This document is also available in [**Cantonese 中文（廣東話）** ➜](./README_Cantonese.md)
+---
+
 # TraplessPKE
 
 > **"Quantum computing won. Impressive. You cracked a ciphertext. But not my message."**
