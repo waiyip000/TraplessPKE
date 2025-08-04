@@ -1,3 +1,5 @@
+> 🌐 [English Version Here](./README.md)
+
 # TraplessPKE
 
 > **「量子計算好嘢，贏晒啲加密。你話你解到 TraplessPKE 嘅 ciphertext——解到你嗰份，唔係我 send 嗰份囉。」** <br>
@@ -277,6 +279,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
