@@ -195,13 +195,9 @@ This project is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](ht
 
 You may use, adapt, and share the work — but must credit the author.
 
-```
-Author: Wai Yip, WONG
+**Author:** Wai Yip, WONG <br>
 🔗 [LinkedIn](https://www.linkedin.com/in/wai-yip-wong/)  
-💻 [GitHub](https://waiyip000.github.io/)
-Date: 3 August 2025
-License: CC BY 4.0
-```
+💻 [GitHub](https://waiyip000.github.io/) <br>
 
 ---
 
@@ -214,6 +210,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
