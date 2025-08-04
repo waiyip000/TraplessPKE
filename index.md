@@ -12,7 +12,7 @@ window.MathJax = {
 
 # TraplessPKE
 
-> **"Quantum won. Impressive. You got a message — just not mine."**
+> **"Quantum computing won. Impressive. You cracked a ciphertext. But not my message."**
 
 ## 🧭 Overview
 
@@ -206,6 +206,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
