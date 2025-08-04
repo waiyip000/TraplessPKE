@@ -143,7 +143,7 @@ Readers unfamiliar with entropy filtering, preimage resistance, or predicate-bas
 
 ## 📄 Whitepaper
 
-* [📘 TraplessPKE Whitepaper (v1.0)](./whitepaper/TraplessPKE_whitepaper.md)
+* [📘 TraplessPKE Whitepaper (v1.0)](./TraplessPKE_whitepaper_V1.0.pdf)
 
 This document contains all formal descriptions, proofs, and algorithms, including:
 
@@ -207,5 +207,6 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
