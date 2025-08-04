@@ -1,6 +1,6 @@
 # TraplessPKE
 
-> **「量子計算好嘢，贏晒啲加密。你話你解到 TraplessPKE 嘅 ciphertext——解到你嗰份，唔係我 send 嗰份囉。」**
+> **「量子計算好嘢，贏晒啲加密。你話你解到 TraplessPKE 嘅 ciphertext——解到你嗰份，唔係我 send 嗰份囉。」** <br>
 > 註解: RSA、ECC、lattice 嗰啲你解晒都得，但 TraplessPKE 本身就唔係畀你破解嘅 ciphertext。 你解嗰份係「一份」，唔係「我嗰份」。
 
 ## 🧭 概覽
@@ -22,6 +22,8 @@ TraplessPKE 係一種結構上勁另類嘅 post-quantum 加密系統，用嚟做
 > **冇 prime、冇 lattice、冇得搵結構嚟攻。**  
 > 得一樣嘢——**你有 key，先有 meaning。**
 
+---
+
 ## 🔐 有咩Offer（即係功能啦）
 
 * **後量子時代都頂得順嘅 Public-Key Encryption**
@@ -29,109 +31,6 @@ TraplessPKE 係一種結構上勁另類嘅 post-quantum 加密系統，用嚟做
 * **Support Zero-Knowledge Proof（放心啦唔會爆底）**
 * **Constant-Time、Stateless、夠晒 Ready for hardware run**
 * **完全唔靠 Algebra，表面睇落無結構（無 lattice、無 code、無 elliptic curve）**
-
----
-
-## 📐 設計哲學（Design Philosophy）
-
-> **「你解得出唔代表你解到我嗰份。」**
-
-TraplessPKE 嘅出發點根本唔係「堅固」咁簡單，佢係攬住一種 **徹底唔同嘅信念**：
-
-我哋唔靠 lattice，唔靠 prime，唔靠你啲數學武功高低；我哋直接玩冇 structure。
-
-你以為加強加密安全係玩複雜度？唔使㗎，**我哋玩嘅係模糊度（ambiguity）**。
-
-你覺得遮住結構就叫安全？唔使㗎，**我直接唔畀結構你，咁咪得囉。**
-
-### 🚪 意義只會喺你攞到 permission 嗰陣先打開
-
-TraplessPKE 唔係用嚟呃你，唔係玩遮遮掩掩。佢係話俾你聽：
-
-> **「你可以驗證，但唔可以理解；你可以撞中個 output，但你永遠唔會知道佢係唔係我 send 嗰份。」**
-
-佢嘅設計唔係迴避風險，係直接摧毀風險發生嘅前提。
-
-* 唔畀你 feedback
-* 唔畀你構造 oracle
-* 唔畀你靠任何 structure 估返轉頭
-
-呢個唔係 Obfuscation，呢個係 **Epistemic Blindness**。
-
----
-
-## 📖 起源同傳說（Origin and Narrative）
-
-> **「我唔係大學研究嗰邊出身，唔係邊個研究所 project。呢套嘢，係我自己諗、自己砌、自己諗出嚟。」**
-
-TraplessPKE 嘅出現，唔係咩 cryptography conference 嘅 appendix，唔係邊個教授帶三個 PhD 學生改 lattice 改到失憶。
-
-佢係一個 **唔肯認命** 嘅設計者，直頭覺得：
-
-> **「點解我哋要繼續依賴啲會俾 quantum computing 解算到嘅結構？」**
-
-於是唔再改良，而係 **割席式重寫**。
-
-即時就用 AI 幫手撳 document、對 proof、砌啲 draft，但講明先：
-
-> **「AI 係打字嗰個、計數嗰個，我係諗嘢嗰個。」**
-
-砌邏輯、設計整個 system 嘅骨架——係我。
-
-AI 幫手寫咗啲靚字、計準條數，但 **冇發明模型，冇揸主意。**
-
-### 🧠 呢個 system，係有腦有血有性格
-
-> **「TraplessPKE 唔係 dataset 入面抄出嚟；佢唔係 chat window 彈出嚟；佢唔係 AI dream，佢係我現實諗出嚟嘅答案。」**
-
-所以唔好拎個 buzzword「AI involvement」嚟吞我 credit。
-
-> **「你覺得用 AI 幫手就代表 AI 係 author 咩？咁你自己試下用 AI 整一個 cryptosystem 嚟睇下先啦。」**
-
----
-
-## 🧠 Authorship 同 AI 咩事？
-
-> **「呢份嘢，唔係 AI 整出嚟。
-> 係我—Wai Yip, WONG——諗出嚟。」**
-
-TraplessPKE 嘅每一粒種子，每個轉角，每個 trapdoor mask 嘅 idea，全部都係一個人自己決定、自己定義、自己砌出嚟。
-
-AI 幫咗手，冇錯：
-
-* 校 proof 嘅時候有出力
-* 幫計數、整排版、幫撳 math syntax、改句子 tone
-* 好似你請咗個 24 小時唔喊工錢嘅超強助理
-
-但最關鍵嘅係：
-
-> **AI 幫得出結果，係因為我叫佢點做，佢就跟住做，我 lead。**
-
-### 🚫 拒絕 AI 神話
-
-> **「Prompt engineering 係 authorship。調度邏輯就係創作。你想將創作歸 AI？試下叫 AI 自己整個 cryptosystem 嚟睇下啦。」**
-
-TraplessPKE 唔係一段 prompt 敲出嚟。佢係背後有個腦、一套原則、同埋一種唔認輸嘅態度。
-
-### 📣 有用工具 ≠ 擁有發明
-
-> **「你用 AI 起磚頭唔等於 AI 係建築師。你攞部相機唔等於你就係光學工程師。你撳咗 submit，唔代表整咗 cryptosystem。」**
-
-AI 寫得出文字，但寫唔出理由。
-AI 可以排列句子，但砌唔出哲學。
-AI 可以生成 proof-of-work，但冇 proof-of-wisdom。
-
-> **「TraplessPKE 有靈魂，而個 author，就係我。」**
-
----
-
-## ❓關於技術問題嗰啲位
-
-TraplessPKE 係一個 **fully-specified、self-contained** 嘅 cryptosystem。
-
-如果你想問 sampling、encoding、efficiency，呢啲係 **實作問題（implementation）**，唔係 **設計錯漏（design flaw）**。
-
-📚 建議：未學 entropy filtering、preimage resistance 嘅，可以先翻下書。
 
 ---
 
@@ -200,6 +99,160 @@ TraplessPKE 嘅安全模型唔係靠數學武功高深，唔係用計算複雜�
 
 ---
 
+## ❓關於技術問題嗰啲位
+
+TraplessPKE 係一個 **fully-specified、self-contained** 嘅 cryptosystem。
+
+如果你想問 sampling、encoding、efficiency，呢啲係 **實作問題（implementation）**，唔係 **設計錯漏（design flaw）**。
+
+📚 建議：未學 entropy filtering、preimage resistance 嘅，可以先翻下書。
+
+---
+
+## 🧠 Authorship 同 AI 咩事？
+
+> **「呢份嘢，唔係 AI 整出嚟。
+> 係我—Wai Yip, WONG——諗出嚟。」**
+
+TraplessPKE 嘅每一粒種子，每個轉角，每個 trapdoor mask 嘅 idea，全部都係一個人自己決定、自己定義、自己砌出嚟。
+
+AI 幫咗手，冇錯：
+
+* 校 proof 嘅時候有出力
+* 幫計數、整排版、幫撳 math syntax、改句子 tone
+* 好似你請咗個 24 小時唔喊工錢嘅超強助理
+
+但最關鍵嘅係：
+
+> **AI 幫得出結果，係因為我叫佢點做，佢就跟住做，我 lead。**
+
+### 🚫 拒絕 AI 神話
+
+> **「Prompt engineering 係 authorship。調度邏輯就係創作。你想將創作歸 AI？試下叫 AI 自己整個 cryptosystem 嚟睇下啦。」**
+
+TraplessPKE 唔係一段 prompt 敲出嚟。佢係背後有個腦、一套原則、同埋一種唔認輸嘅態度。
+
+### 📣 有用工具 ≠ 擁有發明
+
+> **「你用 AI 起磚頭唔等於 AI 係建築師。你攞部相機唔等於你就係光學工程師。你撳咗 submit，唔代表整咗 cryptosystem。」**
+
+AI 寫得出文字，但寫唔出理由。
+AI 可以排列句子，但砌唔出哲學。
+AI 可以生成 proof-of-work，但冇 proof-of-wisdom。
+
+> **「TraplessPKE 有靈魂，而個 author，就係我。」**
+
+---
+
+## ❗如果 AI 真係作者——咁啲 breakthrough 去咗邊？
+
+> **「成日話 AI 好勁，好啦，我問：咁啲真突破（breakthrough）去晒邊？」**
+
+如果 AI 真係有創造力、有方向、有判斷，咁：
+
+* Millennium Prize 啲數學難題應該早就破解晒啦
+* 癌症治療方法應該1個 prompt 就搞掂、搵曬出嚟
+* 量子引力應該 chat 幾句就 unify 得啦
+* FDA 藥品應該 ChatGPT 彈返個 formula 就過關啦
+
+但現實係：冇。
+
+> **「AI 冇主見，冇 judgment，冇責任感。佢只係 keyword 排列機。」**
+
+### 🤖 AI 撐得你，但唔帶得你
+
+AI 可以幫手整理、模仿、輔助，但：
+
+* 佢唔會問：**「呢個設計哲學 work 嗎？」**
+* 佢唔會諗：**「我應唔應該完全拋棄 algebraic assumptions？」**
+* 佢唔會堅持一種 **epistemic defense posture**（根本連聽都未聽過）
+
+> **「AI 得 keyword，冇 premise。得 output，冇意圖。得字面，冇靈魂。」**
+
+### 🤷🏻‍♂️ 所以，如果你話 TraplessPKE 咁嘅 system係 AI 整出嚟嘅——
+
+咁我問返你一句：
+
+> **「你整咗份咩出嚟呀？AI 幫你造過邊一個 cryptosystem？你又造過邊個 breakthrough？」**
+
+答唔出，就唔好再偷 credit。
+
+TraplessPKE 係導演主場拍出嚟嘅戲，唔係副導幫你執返個光管。
+
+---
+
+### 📜 License：你用得，用得有尊嚴
+
+> **License: CC BY 4.0**
+
+拎去用冇問題，拎去 share、fork、玩 implementation 都歡迎，
+但記住：
+
+> **要 credit，就要講我個名：Wai Yip, WONG**
+
+唔好改完偷光。
+唔好用完講係 AI 整。
+
+---
+
+## 📐 設計哲學（Design Philosophy）
+
+> **「你解得出唔代表你解到我嗰份。」**
+
+TraplessPKE 嘅出發點根本唔係「堅固」咁簡單，佢係攬住一種 **徹底唔同嘅信念**：
+
+我哋唔靠 lattice，唔靠 prime，唔靠你啲數學武功高低；我哋直接玩冇 structure。
+
+你以為加強加密安全係玩複雜度？唔使㗎，**我哋玩嘅係模糊度（ambiguity）**。
+
+你覺得遮住結構就叫安全？唔使㗎，**我直接唔畀結構你，咁咪得囉。**
+
+### 🚪 意義只會喺你攞到 permission 嗰陣先打開
+
+TraplessPKE 唔係用嚟呃你，唔係玩遮遮掩掩。佢係話俾你聽：
+
+> **「你可以驗證，但唔可以理解；你可以撞中個 output，但你永遠唔會知道佢係唔係我 send 嗰份。」**
+
+佢嘅設計唔係迴避風險，係直接摧毀風險發生嘅前提。
+
+* 唔畀你 feedback
+* 唔畀你構造 oracle
+* 唔畀你靠任何 structure 估返轉頭
+
+呢個唔係 Obfuscation，呢個係 **Epistemic Blindness**。
+
+---
+
+## 📖 起源同傳說（Origin and Narrative）
+
+> **「我唔係大學研究嗰邊出身，唔係邊個研究所 project。呢套嘢，係我自己諗、自己砌、自己諗出嚟。」**
+
+TraplessPKE 嘅出現，唔係咩 cryptography conference 嘅 appendix，唔係邊個教授帶三個 PhD 學生改 lattice 改到失憶。
+
+佢係一個 **唔肯認命** 嘅設計者，直頭覺得：
+
+> **「點解我哋要繼續依賴啲會俾 quantum computing 解算到嘅結構？」**
+
+於是唔再改良，而係 **割席式重寫**。
+
+即時就用 AI 幫手撳 document、對 proof、砌啲 draft，但講明先：
+
+> **「AI 係打字嗰個、計數嗰個，我係諗嘢嗰個。」**
+
+砌邏輯、設計整個 system 嘅骨架——係我。
+
+AI 幫手寫咗啲靚字、計準條數，但 **冇發明模型，冇揸主意。**
+
+### 🧠 呢個 system，係有腦有血有性格
+
+> **「TraplessPKE 唔係 dataset 入面抄出嚟；佢唔係 chat window 彈出嚟；佢唔係 AI dream，佢係我現實諗出嚟嘅答案。」**
+
+所以唔好拎個 buzzword「AI involvement」嚟吞我 credit。
+
+> **「你覺得用 AI 幫手就代表 AI 係 author 咩？咁你自己試下用 AI 整一個 cryptosystem 嚟睇下先啦。」**
+
+---
+
 ## 🏁 最後一彈：收線，但唔係收檔
 
 TraplessPKE 唔止係一個 cryptosystem，佢係一種 **姿態（posture）**：
@@ -215,17 +268,7 @@ TraplessPKE 唔止係一個 cryptosystem，佢係一種 **姿態（posture）**�
 * 唔係靠 complexity 嚟防守，係 **靠 ambiguity 去拒絕你解釋權**。
 * 唔係靠啲 proof 喺度自我陶醉，係 **靠 silence 令你根本唔知自己錯邊度。**
 
-### 📜 License：你用得，用得有尊嚴
-
-> **License: CC BY 4.0**
-
-拎去用冇問題，拎去 share、fork、玩 implementation 都歡迎，
-但記住：
-
-> **要 credit，就要講我個名：Wai Yip, WONG**
-
-唔好改完偷光。
-唔好用完講係 AI 整。
+---
 
 ### 🔚 完，但未收檔
 
@@ -234,6 +277,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
