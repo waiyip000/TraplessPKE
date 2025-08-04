@@ -1,6 +1,6 @@
 # TraplessPKE
 
-> **"Quantum won. Impressive. You got a message — just not mine."**
+> **"Quantum computing won. Impressive. You cracked a ciphertext. But not my message."**
 
 ## 🧭 Overview
 
