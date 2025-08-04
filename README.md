@@ -120,7 +120,7 @@ Readers unfamiliar with entropy filtering, preimage resistance, or predicate-bas
 
 ## 📄 Whitepaper
 
-* [📘 TraplessPKE Whitepaper (v1.0)](./whitepaper/TraplessPKE_whitepaper.md)
+* [📘 TraplessPKE Whitepaper (v1.0)](./whitepaper/TraplessPKE_whitepaper_V1.0.md)
 
 This document contains all formal descriptions, proofs, and algorithms, including:
 
