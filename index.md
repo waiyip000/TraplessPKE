@@ -11,9 +11,8 @@ window.MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
----
-📄 This document is also available in [**Cantonese 中文（廣東話）** ➜](./README_Cantonese.md)
----
+
+📄 This document is also available in [**Cantonese 中文（廣東話）**](./README_Cantonese.md)
 
 # TraplessPKE
 
@@ -209,6 +208,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
