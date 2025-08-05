@@ -52,6 +52,12 @@ This document contains all formal descriptions, proofs, and algorithms, includin
 * Signature scheme and verification
 * Security rationale for SD-SIHF (Selector Dual Inversion with Hidden Filtering)
 
+## Author Clarification
+
+* [Author Clarification: Role, Method, and Authorship Integrity](./Author_Clarification.md)
+
+This document clarifies the authorship model, methodological structure, and use of advanced tooling in the development of TraplessPKE. It reflects a deliberate commitment to transparency, ethical authorship, and the evolving realities of modern independent research.
+
 ## 🧠 Ask the Agent
 
 You may upload the TraplessPKE whitepaper to ChatGPT, Claude, Gemini, or other advanced reasoning agents and ask:
@@ -208,6 +214,7 @@ TraplessPKE is not just a cryptosystem. It is a new posture:
 * One where cryptographic silence replaces complexity
 
 > **If you want certainty — bring the key.**
+
 
 
 
