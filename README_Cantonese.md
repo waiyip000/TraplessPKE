@@ -68,7 +68,7 @@ TraplessPKE 係一種結構上勁另類嘅 post-quantum 加密系統，用嚟做
 
 ## ✍️ 作者聲明：角色、方法、同創作真確性
 
-### 文件名稱：[Author Clarification: Role, Method, and Authorship Integrity](./Author_Clarification.md)
+**文件名稱：**[Author Clarification: Role, Method, and Authorship Integrity](./Author_Clarification.md)
 
 呢份文件係為咗講清楚 TraplessPKE 喺開發過程入面：
 
@@ -312,6 +312,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
