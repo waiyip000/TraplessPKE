@@ -1,4 +1,4 @@
-> 🌐 [English Version Here](./README.md)
+> 🌐 [English Version Here](https://waiyip000.github.io/TraplessPKE/)
 
 # TraplessPKE
 
@@ -294,6 +294,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
