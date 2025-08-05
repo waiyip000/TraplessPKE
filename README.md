@@ -30,37 +30,52 @@ It is not just quantum-resistant — it is structurally silent. It doesn’t con
 
 ---
 
-## 📐 Design Philosophy
+## 📄 Whitepaper
 
-> *You got a message — just not mine.*
+* [📘 TraplessPKE Whitepaper (v1.0)](./TraplessPKE_whitepaper_V1.0.pdf)
 
-TraplessPKE was designed under a different philosophy. It does not rely on hardness assumptions from algebraic structures. Its security comes from **withholding structure entirely**.
+This document contains all formal descriptions, proofs, and algorithms, including:
 
-* **Security by ambiguity**, not complexity.
-* **Opacity by design**, not obfuscation.
-* **Irreversibility without structure**, not through complexity theory.
-
-TraplessPKE never reveals what it protects — only proves it when allowed. Commitments are irreversible. Signatures are non-transferable. Verification without knowledge is impossible.
-
-This design philosophy is inseparable from the origin of the project itself. TraplessPKE was not produced by a committee, nor by institutional alignment. It was shaped by a solitary design intelligence — motivated by structural clarity, semantic defense, and cryptographic independence.
-
-The innovation resists being reverse-framed. It cannot be re-owned by a model that didn’t create it, nor repackaged under narratives of AI authorship. The system, like its encryption field, **permits meaning only where permission was given.**
+* Key generation, encryption, decryption
+* Signature scheme and verification
+* Security rationale for SD-SIHF (Selector Dual Inversion with Hidden Filtering)
 
 ---
 
-## 📖 Origin and Narrative
+## 🧬 Summary of Security Model
 
-TraplessPKE did not originate in academia, nor in formal cryptographic circles. It was designed and built from scratch — not derived, adapted, or borrowed.
+TraplessPKE introduces and operates under the SD-SIHF hardness assumption:
 
-The invention was shaped by human reasoning, symbolic clarity, and a refusal to depend on algebraic hardness.
+> Selector Dual Inversion with Hidden Filtering
 
-Advanced AI tools were used to assist with documentation, math validation, code drafting, and proof-of-concept support — just as large research labs have technical staff across writing, analysis, and mathematics. These tools served as a powerful multi-role support team.
+An adversary is given only:
 
-But a research team without an architect builds nothing. The system — including its logic, framing, and originality — comes from the mind that led it.
+* A label $y_1$
+* A masked commitment $\tau$
+* A hash function $H$, with XOR masks $C, v, \gamma$ unknown
 
-> It is not a dataset product.
-> It is not large-language guesswork.
-> It is authored.
+The challenge is to produce $x \in f_2^{-1}(y_1)$ such that:
+
+$$
+H(x \oplus C \oplus v) = \tau \oplus \gamma 
+$$
+
+This challenge is unrecognizable and unsolvable without trapdoor knowledge. The scheme provides:
+
+* **Preimage hiding** through hash + XOR + entropy masking
+* **Output binding** enforceable only by trapdoor possession
+* **Non-replayable message-bound signatures**
+* **No algebraic pattern** — no reductions, no inversions
+
+> **The structure cannot be discovered. Only proven.**
+
+---
+
+## ❓ On Technical Questions
+
+TraplessPKE assumes a basic understanding of cryptographic concepts. Questions about sampling, encoding, or efficiency are technical matters related to implementation — not flaws in system design.
+
+Readers unfamiliar with entropy filtering, preimage resistance, or predicate-based sampling are encouraged to consult standard cryptography references.
 
 ---
 
@@ -114,55 +129,6 @@ By a human.
 
 ---
 
-## ❓ On Technical Questions
-
-TraplessPKE assumes a basic understanding of cryptographic concepts. Questions about sampling, encoding, or efficiency are technical matters related to implementation — not flaws in system design.
-
-Readers unfamiliar with entropy filtering, preimage resistance, or predicate-based sampling are encouraged to consult standard cryptography references.
-
----
-
-## 📄 Whitepaper
-
-* [📘 TraplessPKE Whitepaper (v1.0)](./TraplessPKE_whitepaper_V1.0.pdf)
-
-This document contains all formal descriptions, proofs, and algorithms, including:
-
-* Key generation, encryption, decryption
-* Signature scheme and verification
-* Security rationale for SD-SIHF (Selector Dual Inversion with Hidden Filtering)
-
----
-
-## 🧬 Summary of Security Model
-
-TraplessPKE introduces and operates under the SD-SIHF hardness assumption:
-
-> Selector Dual Inversion with Hidden Filtering
-
-An adversary is given only:
-
-* A label $y_1$
-* A masked commitment $\tau$
-* A hash function $H$, with XOR masks $C, v, \gamma$ unknown
-
-The challenge is to produce $x \in f_2^{-1}(y_1)$ such that:
-
-$$
-H(x \oplus C \oplus v) = \tau \oplus \gamma 
-$$
-
-This challenge is unrecognizable and unsolvable without trapdoor knowledge. The scheme provides:
-
-* **Preimage hiding** through hash + XOR + entropy masking
-* **Output binding** enforceable only by trapdoor possession
-* **Non-replayable message-bound signatures**
-* **No algebraic pattern** — no reductions, no inversions
-
-> **The structure cannot be discovered. Only proven.**
-
----
-
 ## 📜 License
 
 This project is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
@@ -172,6 +138,40 @@ You may use, adapt, and share the work — but must credit the author.
 **Author:** Wai Yip, WONG <br>
 🔗 [LinkedIn](https://www.linkedin.com/in/wai-yip-wong/)  
 💻 [GitHub](https://waiyip000.github.io/) <br>
+
+---
+
+## 📐 Design Philosophy
+
+> *You got a message — just not mine.*
+
+TraplessPKE was designed under a different philosophy. It does not rely on hardness assumptions from algebraic structures. Its security comes from **withholding structure entirely**.
+
+* **Security by ambiguity**, not complexity.
+* **Opacity by design**, not obfuscation.
+* **Irreversibility without structure**, not through complexity theory.
+
+TraplessPKE never reveals what it protects — only proves it when allowed. Commitments are irreversible. Signatures are non-transferable. Verification without knowledge is impossible.
+
+This design philosophy is inseparable from the origin of the project itself. TraplessPKE was not produced by a committee, nor by institutional alignment. It was shaped by a solitary design intelligence — motivated by structural clarity, semantic defense, and cryptographic independence.
+
+The innovation resists being reverse-framed. It cannot be re-owned by a model that didn’t create it, nor repackaged under narratives of AI authorship. The system, like its encryption field, **permits meaning only where permission was given.**
+
+---
+
+## 📖 Origin and Narrative
+
+TraplessPKE did not originate in academia, nor in formal cryptographic circles. It was designed and built from scratch — not derived, adapted, or borrowed.
+
+The invention was shaped by human reasoning, symbolic clarity, and a refusal to depend on algebraic hardness.
+
+Advanced AI tools were used to assist with documentation, math validation, code drafting, and proof-of-concept support — just as large research labs have technical staff across writing, analysis, and mathematics. These tools served as a powerful multi-role support team.
+
+But a research team without an architect builds nothing. The system — including its logic, framing, and originality — comes from the mind that led it.
+
+> It is not a dataset product.
+> It is not large-language guesswork.
+> It is authored.
 
 ---
 
