@@ -52,4 +52,4 @@ This is not a sign of weakness — it is a **sign of truthful authorship** in an
 
 TraplessPKE was not created by AI. It was created by a person — with vision, judgment, and a defined security philosophy. AI tools helped carry the load. But authorship belongs where direction, structure, and invention originated: with Wai Yip, WONG.
 
-This section will remain a permanent part of TraplessPKE documentation to preserve the record of how it was made — and by whom.
+
