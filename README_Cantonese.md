@@ -66,6 +66,24 @@ TraplessPKE 係一種結構上勁另類嘅 post-quantum 加密系統，用嚟做
 
 > **「我冇講唔代表我冇寫，你冇睇唔代表我冇諗。」**
 
+## ✍️ 作者聲明：角色、方法、同創作真確性
+
+### 文件名稱：[Author Clarification: Role, Method, and Authorship Integrity](./Author_Clarification.md)
+
+呢份文件係為咗講清楚 TraplessPKE 喺開發過程入面：
+
+* 作者嘅定位係邊
+* 成個方法學架構點砌
+* 同埋點樣用先進工具（例如 AI）去輔助
+
+文件背後代表住一個清晰嘅承諾：
+
+* 要公開透明
+* 要堅守作者倫理
+* 同時回應現代獨立研究喺工具使用同創作歸屬方面所面對嘅新現實。
+
+> **作者唔只係寫字嘅人，係嗰個決定整成點嘅人。**
+
 ## 🧠 問吓 AI Agent 啦（問得啱，答得準）
 
 你可以將 TraplessPKE 嘅白皮書上傳畀 ChatGPT、Claude、Gemini 或其他識得諗嘢嘅 AI agent，然後問佢：
@@ -294,6 +312,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
