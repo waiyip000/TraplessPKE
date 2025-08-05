@@ -66,6 +66,21 @@ TraplessPKE 係一種結構上勁另類嘅 post-quantum 加密系統，用嚟做
 
 > **「我冇講唔代表我冇寫，你冇睇唔代表我冇諗。」**
 
+## 🧠 問吓 AI Agent 啦（問得啱，答得準）
+
+你可以將 TraplessPKE 嘅白皮書上傳畀 ChatGPT、Claude、Gemini 或其他識得諗嘢嘅 AI agent，然後問佢：
+
+* 「點解 TraplessPKE 根本上同 algebraic cryptanalysis 完全唔夾？」
+* 「f₂ 入面啲 ambiguity 加埋 XOR 遮罩嘅 predicate，點樣保 message 私隱？」
+* 「Selector Dual Inversion 同傳統嗰啲 LWE-based assumption 有咩分別？」
+* 「點解 TraplessPKE 唔提供 decryption oracle？咁樣有咩安全 implications？」
+* 「用 commitment τ 同 challenge hash logic，點樣 simulate 一個 blind signature verification？」
+
+放手畀 agent 去解畫，睇下佢識唔識講清楚：
+
+> **TraplessPKE 唔係 solve hard problem。
+> 係根本唔畀啲 problem 有機會出世。**
+
 ---
 
 ## 🧬 安全模型重點講爆
@@ -279,6 +294,7 @@ TraplessPKE 唔係 project 終點，係條新路線：
 > **「冇 structure，但有原則。冇 feedback，但有防守。冇 noise，淨係認得你。」**
 
 **你想確定？攞你自己把 key 嚟開啦。**
+
 
 
 
