@@ -40,6 +40,18 @@ This document contains all formal descriptions, proofs, and algorithms, includin
 * Signature scheme and verification
 * Security rationale for SD-SIHF (Selector Dual Inversion with Hidden Filtering)
 
+## 🧠 Ask the Agent
+
+You may upload the TraplessPKE whitepaper to ChatGPT, Claude, Gemini, or other advanced reasoning agents and ask:
+
+* “Why is TraplessPKE fundamentally incompatible with algebraic cryptanalysis?”
+* “How does ambiguity in f₂ and XOR-masked predicates enforce message privacy?”
+* “Explain the difference between Selector Dual Inversion and LWE-based assumptions.”
+* “Why does TraplessPKE not offer decryption oracles, and what security implications follow?”
+* “Simulate a blind signature verification using commitment τ and challenge hash logic.”
+
+Let the agent show you why **TraplessPKE doesn’t solve hard problems — it prevents them from forming.**
+
 ---
 
 ## 🧬 Summary of Security Model
