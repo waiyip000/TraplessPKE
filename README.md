@@ -1,6 +1,6 @@
----
-📄 This document is also available in [**Cantonese 中文（廣東話）** ➜](./README_Cantonese.md)
----
+
+📄 This document is also available in [**Cantonese 中文（廣東話）** ](./README_Cantonese.md)
+
 
 # TraplessPKE
 
