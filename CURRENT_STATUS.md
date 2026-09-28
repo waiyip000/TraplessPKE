@@ -41,7 +41,7 @@ This documentation adds no product capability. Current workflows select the inte
 
 ## Publication review
 
-This documentation refresh is under owner review with the repository temporarily private. Making it public again requires completion of that review. Original commits, the whitepaper PDF and release V1.0 remain preserved.
+The owner authorized public sharing of both repositories on 28 September 2026. This research repository and the separate demonstration repository are now public. Original commits, the whitepaper PDF and release V1.0 remain preserved.
 
 See [SECURITY_SCOPE.md](SECURITY_SCOPE.md), [LICENSING.md](LICENSING.md) and [HISTORY.md](HISTORY.md).
 

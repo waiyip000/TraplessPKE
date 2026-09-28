@@ -10,7 +10,7 @@ This repository is the research and project information hub. It preserves the or
 
 **Start here:** [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Executable and release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md).
 
-This research repository is temporarily private for owner review. The separate demo and its downloads are public and self-contained.
+Both this research repository and the separate demo repository are public. The demo and its downloads remain self-contained.
 
 ## Proposed priority use case: protected transport
 

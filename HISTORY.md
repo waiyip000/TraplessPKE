@@ -17,6 +17,7 @@ Dates below distinguish dates printed in documents, recorded Git events, publish
 | 28 September 2026 | Demo 0.1.2 published separately with source, executable and manual. | [Demo release](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) |
 | 28 September 2026 | Expanded Windows functional validation completed without application changes. | [Recorded scope](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md) |
 | 28 September 2026 | Documentation refresh prepared under temporary private visibility for owner review. | [Change log](CHANGELOG.md) |
+| 28 September 2026 | Owner authorized public sharing; both research and demo repositories made publicly accessible. | [Repository guide](PROJECT_MAP.md) |
 
 The author reports presenting the research as a poster at IEEE CCNC 2026. The precise acceptance date is not supplied here.
 

@@ -50,7 +50,7 @@ Research documentation: CC BY 4.0. Separate demo source: Apache-2.0. Commercial 
 
 [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) · [Protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md) · [Functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
 
-The research repository is currently private for owner review. Its links require access; the separate demo remains public. [Repository guide](https://github.com/waiyip000/TraplessPKE/blob/main/PROJECT_MAP.md).
+Both the research repository and the separate demo are now public. [Repository guide](https://github.com/waiyip000/TraplessPKE/blob/main/PROJECT_MAP.md).
 
 ---
 

@@ -1,5 +1,11 @@
 # Documentation changes
 
+## 28 September 2026 — public sharing restored
+
+- Owner authorized public sharing; both research and demo repositories are now public.
+- Updated temporary-private notices and reciprocal navigation labels.
+- Earlier entries below describe their historical review-stage visibility.
+
 ## 28 September 2026 — repository linkage and current documentation
 
 - Reviewed every current project-authored Markdown document in both repositories.
@@ -43,7 +49,7 @@ Prepared under temporary private visibility for owner review.
 - Preserved the original PDF, LICENSE, V1.0 release and existing Git history.
 - Added no commercial source, executable, private experiment record or demo code to this research repository.
 
-Republication remains pending owner review. This is a documentation update, not a cryptographic algorithm change, product rebuild or new security verdict.
+At that review stage, republication was pending owner review. Public sharing was subsequently authorized as recorded above. Documentation updates do not change the algorithm, product build or security verdict.
 
 ---
 

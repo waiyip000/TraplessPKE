@@ -21,10 +21,10 @@ Updated 28 September 2026. Creator and project director: Wai Yip, WONG.
 
 ## Access and versions
 
-This research repository remains private pending owner review. Its links require
-permission; the separate demo repository and release downloads are public.
-The demo includes all instructions needed to run it without research-repository
-access. Changing documentation does not change repository visibility.
+The owner authorized public sharing of both repositories on 28 September 2026.
+Both the research hub and the demonstration repository are now public. Their
+cross-references can be followed without private-repository access. The demo
+remains self-contained.
 
 Original whitepaper V1.0, commercial desktop 1.1.4 and demo 0.1.2 are separate
 version identities. Demo release v0.1.2 is immutable; main-branch documentation

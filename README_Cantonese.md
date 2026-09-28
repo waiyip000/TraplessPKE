@@ -68,7 +68,7 @@ Wai Yip Wong，**“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryp
 
 ## 儲存庫連結及最新功能驗證
 
-[儲存庫導覽](PROJECT_MAP.md)列明研究資料、示範原始碼、下載及問題回報分別放喺邊度。呢個研究儲存庫暫時保持私有，等候擁有者審閱；[示範儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)、[下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)同[使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)已公開，唔需要研究儲存庫存取權。
+[儲存庫導覽](PROJECT_MAP.md)列明研究資料、示範原始碼、下載及問題回報分別放喺邊度。擁有者已批准公開分享，呢個研究儲存庫現已公開；[示範儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)、[下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)同[使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)已公開，唔需要研究儲存庫存取權。
 
 2026 年 9 月 28 日嘅[Windows 功能驗證](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md)完成全部 14 個命令、六組核心流程、兩個 GPU 範例產生器，並記錄到 57/57 個具名應用函式嘅執行。修正嘅係兩個本機測試工具問題，示範程式本身無需修改。呢個係指定測試範圍嘅功能結果，唔係不可破解嘅證明。
 
