@@ -31,10 +31,10 @@ The [original whitepaper v1.0](TraplessPKE_whitepaper_V1.0.pdf), dated 3 August 
 | Subject | Status and scope |
 |---|---|
 | Commercial Windows application | Release 2 baseline / desktop **1.1.4**, assigned 28 September 2026. Provides key management, encryption/decryption, signing/verification, backup/restoration and job recovery. The commercial source and internal construction materials remain private. |
-| Two-Boundary demonstration | Separate inspectable Python implementation **0.1.2**. Two candidate files, public-key sending, private-key recovery, actual byte comparison and explicit content-exposure views. Local functional acceptance completed; public publication is pending. |
+| Two-Boundary demonstration | Separate inspectable Python implementation **0.1.2**. Two candidate files, public-key sending, private-key recovery, actual byte comparison and explicit content-exposure views. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2). |
 | Original whitepaper release | GitHub tag **V1.0**, published 4 August 2025. This identifies the whitepaper release, not commercial application version 1.0.0 or the current desktop release. |
 
-The demonstration is intended for a dedicated repository under Apache-2.0. A live download link will be added after publication. This repository contains no commercial source or commercial executable download.
+The demonstration is published in its [dedicated repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) under Apache-2.0. [Download the source, executable and user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2). This repository contains no commercial source or commercial executable download.
 
 ## What the demonstration can show
 

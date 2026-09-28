@@ -1,5 +1,12 @@
 # Documentation changes
 
+## 28 September 2026 — separate demo publication
+
+- Linked the public demo 0.1.2 source, standalone Windows executable, offline kit and user manual.
+- Recorded public download hashes and actual recovery using the downloaded executable.
+- Preserved commercial source separation and this research repository's private owner-review status.
+
+
 ## 28 September 2026 — operational adoption wording
 
 - Reframed the protected-transport overview around companies evaluating integration against their own business needs, confidentiality requirements and deployment conditions.

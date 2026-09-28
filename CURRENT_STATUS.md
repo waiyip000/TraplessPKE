@@ -27,9 +27,9 @@ The source, internal construction tools, private evidence and private baseline a
 
 **Demo 0.1.2** is a separate two-candidate Python implementation. It includes public-key sending, private-key recovery, owner byte comparison, explicit candidate/content-capability exposure, and commitment/submission/reveal exchange.
 
-Local package construction and sequential functional acceptance completed successfully, with actual acceptance exit 0. These are local functional results. Public publication and use of downloaded public release bytes remain outstanding; no public download is represented as available.
+Local package construction and sequential functional acceptance completed successfully, with actual acceptance exit 0. The public release provides source, a standalone Windows x64 executable, the offline Python kit and user manual. Published asset downloads matched their recorded SHA-256 hashes, and the downloaded executable actually recovered the selected file with equal bytes. These are functional and distribution checks, not a security proof.
 
-The intended dedicated repository name is `waiyip000/traplesspke-two-boundary-demo`. It will be linked after it exists and publication is completed. Demo source licence: Apache-2.0, with dependency-specific notices. Commercial source is excluded.
+[Dedicated demo repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md). Demo source licence: Apache-2.0, with dependency-specific notices. Commercial source is excluded.
 
 The demo omits the commercial GUI, signature workflows, vault and commercial internals. It uses ML-KEM-768 and AES-256-GCM-SIV. Its published algorithm is intended to be fully inspectable, without a hidden commercial backend. No independent blinded security bound has been established.
 

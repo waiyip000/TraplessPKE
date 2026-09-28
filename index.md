@@ -31,7 +31,7 @@ Wai Yip Wong, **“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Crypt
 ## Current implementation status
 
 - **Commercial:** Release 2 / Windows desktop **1.1.4**, with key management, encryption/decryption, signing/verification, backup/restoration and recovery. Commercial source remains private.
-- **Demonstration:** separate inspectable Python **0.1.2**, with two candidates and explicit content/intent exposure scope. Local functional acceptance completed; public publication is pending.
+- **Demonstration:** separate inspectable Python **0.1.2**, with two candidates and explicit content/intent exposure scope. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2).
 - **Evidence:** functional acceptance applies to its recorded scope. No universal unbreakability or independent demo security bound is claimed.
 
 The demo uses ML-KEM-768 for both independently generated capabilities. Exposing the content capability does not demonstrate survival after a general break affecting both. See the exact [security scope](https://github.com/waiyip000/TraplessPKE/blob/main/SECURITY_SCOPE.md).
@@ -44,4 +44,4 @@ The demo uses ML-KEM-768 for both independently generated capabilities. Exposing
 
 [Authorship](https://github.com/waiyip000/TraplessPKE/blob/main/Author_Clarification.md) · [Licensing](https://github.com/waiyip000/TraplessPKE/blob/main/LICENSING.md) · [Reporting issues](https://github.com/waiyip000/TraplessPKE/blob/main/SECURITY.md)
 
-Research documentation: CC BY 4.0. Separate demo source: Apache-2.0 when published. Commercial implementation and IEEE-hosted material have their own applicable terms.
+Research documentation: CC BY 4.0. Separate demo source: Apache-2.0. Commercial implementation and IEEE-hosted material have their own applicable terms.

@@ -31,10 +31,10 @@ Wai Yip Wong，**“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryp
 | 項目 | 狀態及範圍 |
 |---|---|
 | Windows 商業應用程式 | 第 2 次發行基線／桌面版 **1.1.4**，於 2026 年 9 月 28 日指定。提供金鑰管理、加密／解密、簽署／驗證、備份／還原及工作恢復。商業原始碼同內部建構資料保持私有。 |
-| Two-Boundary 示範程式 | 獨立、可檢視嘅 Python 實作 **0.1.2**。提供兩個候選檔案、公鑰發送、私鑰還原、實際位元組比較同明確界定嘅內容暴露視圖。本機功能驗收已完成；公開發佈待完成。 |
+| Two-Boundary 示範程式 | 獨立、可檢視嘅 Python 實作 **0.1.2**。提供兩個候選檔案、公鑰發送、私鑰還原、實際位元組比較同明確界定嘅內容暴露視圖。示範原始碼、Windows 可執行檔同使用手冊已[公開提供下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)。 |
 | 原始白皮書發行 | GitHub 標籤 **V1.0**，於 2025 年 8 月 4 日發佈。呢個係白皮書版本，唔係商業程式 1.0.0 或目前桌面版本。 |
 
-示範程式計劃放喺獨立儲存庫，以 Apache-2.0 發佈；實際發佈後先加入下載連結。呢個儲存庫唔包含商業原始碼或商業程式下載。
+示範程式已喺[獨立儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)以 Apache-2.0 發佈；[下載原始碼、可執行檔同使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)。呢個儲存庫唔包含商業原始碼或商業程式下載。
 
 ## 示範程式可以展示啲乜
 
