@@ -10,6 +10,14 @@ permalink: /
 
 TraplessPKE distinguishes access to candidate message contents from identification of the sender's intended message. This project hub connects the original record, published research and subsequent implementation work.
 
+## Proposed priority application: protected transport
+
+For cash-in-transit, valuables-in-transit and VIP-in-transit operations, approved alternative route plans can be candidate files and the sender's selected route can be the intended file. This is the author's proposed priority use case.
+
+Last-minute disclosure additionally needs controlled delivery or key access. Holding a bundle and a usable private key permits decryption; selection is made before bundle finalization. No built-in timed release or remotely changeable route is asserted.
+
+[Intended-route use case and capability limits](https://github.com/waiyip000/TraplessPKE/blob/main/USE_CASES.md). No operator deployment or comparative market ranking is claimed.
+
 ## Research
 
 Wai Yip Wong, **“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryptosystem,”** IEEE CCNC 2026, pp. 1–2.

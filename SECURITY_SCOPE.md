@@ -47,6 +47,14 @@ A blinded peer exchange needs a fixed public view, independent prediction submis
 
 “Oracleless” here describes the absence of an online owner service that confirms intended-file guesses. Ordinary local decryption, signature verification in the commercial application, and owner comparison still return results; the term does not mean every operation everywhere emits no feedback.
 
+## Intended-route confidentiality and release time
+
+In the proposed [transport use case](USE_CASES.md), the intended index selects a route file. The sender's decision is fixed before bundle finalization. An authorized release time is a separate policy: possession of both the bundle and usable private-key capability already permits recovery. No trusted-clock enforcement or remote revocation is established by the current documented workflows.
+
+Exposing candidate contents can reveal sensitive route information even when the intended index remains uncertain. Common facts across candidates and external knowledge remain informative. More candidates alone do not justify a real-world 1/N inference bound.
+
+Limiting disclosure to designated staff requires access control and key custody outside the serialized exposure experiment. Bundle authenticity and current-instruction freshness are also distinct; signature validity alone does not make an old route instruction current.
+
 ## Commercial application
 
 The commercial release has its own implementation and acceptance scope. It includes signature and vault workflows absent from the demo. Research publication, successful owner recovery and finite plan acceptance are distinct facts; none is an IEEE certification of commercial software security.

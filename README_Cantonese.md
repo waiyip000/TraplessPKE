@@ -8,6 +8,14 @@ TraplessPKE 研究一個區別：取得候選訊息嘅內容，同辨認發送�
 
 呢個儲存庫係研究同項目資訊入口，保留最初公開記錄，亦記錄後續發展。
 
+## 建議優先應用：受保護運送嘅指定路線保密
+
+現金運送（cash-in-transit）、貴重物品運送（valuables-in-transit）同 VIP 接送（VIP-in-transit），係作者建議優先考慮嘅應用場景。當營運者預先準備多條已批准路線，每條路線計劃可以成為一個候選檔案；發送者最後揀選嘅路線，就係指定檔案。獲授權接收者透過私鑰存取還原呢個選擇。
+
+呢個安排將候選路線對應到「取得內容」同「辨認意圖」嘅區別。不過，最後一刻先披露亦需要控制 bundle 交付或私鑰存取：已經同時持有 bundle 同可用私鑰嘅人，可以即時解密。路線要喺 bundle 定稿之前選定；現有功能唔係內置定時解鎖，亦唔係遙距切換已發出嘅路線。
+
+[指定路線應用、流程及現有功能界限](USE_CASES.md)。實際營運部署同相對其他市場嘅適合程度，尚未確立。
+
 ## 研究論文
 
 Wai Yip Wong，**“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryptosystem,”** 2026 IEEE 23rd Consumer Communications & Networking Conference (CCNC)，第 1–2 頁。

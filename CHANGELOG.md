@@ -1,5 +1,14 @@
 # Documentation changes
 
+## 28 September 2026 — intended-route business use case
+
+- Added USE_CASES.md for cash-in-transit, valuables-in-transit and VIP-in-transit operations as the author's proposed priority application scenario.
+- Mapped approved alternative route files, final intended selection, recipient recovery and controlled release.
+- Distinguished last-minute operational access from built-in timed decryption; selection precedes bundle finalization.
+- Explained current demo limits, candidate-content disclosure and dispatch integration requirements.
+- Updated English/Cantonese overviews, website source, current status, design evolution and security scope.
+- Retained private visibility and owner-review status. No product changes, real route data, customer deployment claim or new test result.
+
 ## 28 September 2026 — research and project hub refresh
 
 Prepared under temporary private visibility for owner review.

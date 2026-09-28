@@ -8,6 +8,14 @@ TraplessPKE explores a distinction between obtaining candidate message contents 
 
 This repository is the research and project information hub. It preserves the original public record and documents subsequent development.
 
+## Proposed priority use case: protected transport
+
+Cash-in-transit, valuables-in-transit and VIP-in-transit operations are the author's proposed priority application scenario. Where an operator prepares several approved routes, each route plan becomes a candidate file; the sender's final route choice becomes the intended file. Authorized recipients recover that selection using private-key access.
+
+This maps route alternatives to the distinction between content access and intent identification. Last-minute disclosure also requires controlled delivery or key access: a person who already has the bundle and a usable private key can decrypt it. Selection precedes bundle finalization; this is not a built-in timer or remote route-switching feature.
+
+[Read the intended-route use case, workflow and current capability limits](USE_CASES.md). Operational deployment and comparative market suitability have not been established.
+
 ## Research publication
 
 Wai Yip Wong, **“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryptosystem,”** 2026 IEEE 23rd Consumer Communications & Networking Conference (CCNC), pp. 1–2.

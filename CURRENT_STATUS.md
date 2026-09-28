@@ -33,6 +33,12 @@ The intended dedicated repository name is `waiyip000/traplesspke-two-boundary-de
 
 The demo omits the commercial GUI, signature workflows, vault and commercial internals. It uses ML-KEM-768 and AES-256-GCM-SIV. Its published algorithm is intended to be fully inspectable, without a hidden commercial backend. No independent blinded security bound has been established.
 
+## Proposed transport application
+
+Cash-in-transit, valuables-in-transit and VIP-in-transit route confidentiality is the author's proposed priority business use case. Candidate route plans map to candidate files, and the chosen route maps to the intended file. See [USE_CASES.md](USE_CASES.md).
+
+This documentation adds no product capability. Current workflows select the intended file before finalizing the bundle. Timed release, staff authorization, current-instruction tracking and dispatch integration are not established by existing file-level acceptance. The demo remains limited to two candidates; no transport-themed run or operational deployment is claimed.
+
 ## Publication review
 
 This documentation refresh is under owner review with the repository temporarily private. Making it public again requires completion of that review. Original commits, the whitepaper PDF and release V1.0 remain preserved.

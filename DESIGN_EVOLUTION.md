@@ -43,3 +43,11 @@ The inspection workflow can expose both decoded candidates and content authority
 Thus content exposure and a general break of that primitive are different experimental conditions. The former does not establish survival of the latter. Sender side information, candidate plausibility and endpoint observations must also be included when making an intent-inference claim.
 
 The commercial implementation's accepted work is retained under its own scope. No demo result automatically validates the entire commercial system, and no commercial milestone retroactively proves every historical whitepaper assertion.
+
+## Application mapping: intended transit route
+
+The proposed [protected-transport use case](USE_CASES.md) gives the content/intent distinction a business interpretation: approved route files are candidates, and the sender chooses the route to execute. Unselected candidates can be genuine alternatives.
+
+The mapping introduces a separate time condition: selected staff should learn the choice only at authorized release. That condition does not follow merely from the candidate/selector construction. Existing recovery works whenever the recipient has both the bundle and usable private-key access. Selection occurs before bundle finalization; a later route change requires a new bundle and a process for superseding earlier instructions.
+
+This application proposal preserves the original idea while distinguishing file-level implemented effects from additional dispatch-system requirements. It is not evidence of deployment or a new security result.
