@@ -14,7 +14,9 @@ Cash-in-transit, valuables-in-transit and VIP-in-transit operations are the auth
 
 This maps route alternatives to the distinction between content access and intent identification. Last-minute disclosure also requires controlled delivery or key access: a person who already has the bundle and a usable private key can decrypt it. Selection precedes bundle finalization; this is not a built-in timer or remote route-switching feature.
 
-[Read the intended-route use case, workflow and current capability limits](USE_CASES.md). Operational deployment and comparative market suitability have not been established.
+Protected-transport companies can evaluate TraplessPKE for integration into their operational workflows, based on their business needs, confidentiality requirements and deployment conditions.
+
+[Explore the intended-route workflow and deployment considerations](USE_CASES.md).
 
 ## Research publication
 

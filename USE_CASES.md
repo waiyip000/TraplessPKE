@@ -2,7 +2,11 @@
 
 Proposed priority business use case identified by Wai Yip, WONG on 28 September 2026: **cash-in-transit, valuables-in-transit and VIP-in-transit operations**.
 
-This scenario applies where an operator prepares several approved route plans, chooses one for a particular movement and limits disclosure of that choice until an authorized operational release. It is a use-case proposal, not a claim of customer deployment or a measured ranking against other markets.
+This scenario applies where an operator prepares several approved route plans, chooses one for a particular movement and limits disclosure of that choice until an authorized operational release. Protected-transport companies can evaluate TraplessPKE for integration into their operational workflows, based on their business needs, confidentiality requirements and deployment conditions.
+
+## Evaluating operational adoption
+
+Each company can assess how intended-route confidentiality fits its own planning and dispatch processes. Deployment decisions should account for recipient authorization, key custody, release timing, current-instruction handling and the capabilities of the selected product version. The mapping below provides a starting point for that assessment; the integration requirements later in this document identify work beyond the existing file workflows.
 
 ## Mapping the business operation to TraplessPKE
 

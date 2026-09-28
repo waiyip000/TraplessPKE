@@ -16,7 +16,9 @@ For cash-in-transit, valuables-in-transit and VIP-in-transit operations, approve
 
 Last-minute disclosure additionally needs controlled delivery or key access. Holding a bundle and a usable private key permits decryption; selection is made before bundle finalization. No built-in timed release or remotely changeable route is asserted.
 
-[Intended-route use case and capability limits](https://github.com/waiyip000/TraplessPKE/blob/main/USE_CASES.md). No operator deployment or comparative market ranking is claimed.
+Protected-transport companies can evaluate TraplessPKE for integration into their operational workflows, based on their business needs, confidentiality requirements and deployment conditions.
+
+[Explore the intended-route workflow and deployment considerations](https://github.com/waiyip000/TraplessPKE/blob/main/USE_CASES.md).
 
 ## Research
 

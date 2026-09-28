@@ -1,5 +1,11 @@
 # Documentation changes
 
+## 28 September 2026 — operational adoption wording
+
+- Reframed the protected-transport overview around companies evaluating integration against their own business needs, confidentiality requirements and deployment conditions.
+- Synchronized English, Cantonese, website, use-case and current-status wording.
+- Retained the documented functional scope, timing/access requirements and absence of claimed operator deployment. Repository visibility remains private for owner review.
+
 ## 28 September 2026 — intended-route business use case
 
 - Added USE_CASES.md for cash-in-transit, valuables-in-transit and VIP-in-transit operations as the author's proposed priority application scenario.
