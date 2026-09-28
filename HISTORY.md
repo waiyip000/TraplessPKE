@@ -14,6 +14,8 @@ Dates below distinguish dates printed in documents, recorded Git events, publish
 | 2026 | IEEE CCNC paper publication. Publisher-deposited Crossref metadata records 9 January 2026 as the publication date. This is not an acceptance-date record. | [Publication and DOI](PUBLICATIONS.md) |
 | After paper acceptance | Author-directed construction of the commercial implementation and then the separate demonstration. | Author's development account; [design evolution](DESIGN_EVOLUTION.md) |
 | 28 September 2026 | Existing accepted Windows desktop 1.1.4 bytes assigned the commercial Release 2 baseline. | [Current status](CURRENT_STATUS.md) |
+| 28 September 2026 | Demo 0.1.2 published separately with source, executable and manual. | [Demo release](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) |
+| 28 September 2026 | Expanded Windows functional validation completed without application changes. | [Recorded scope](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md) |
 | 28 September 2026 | Documentation refresh prepared under temporary private visibility for owner review. | [Change log](CHANGELOG.md) |
 
 The author reports presenting the research as a poster at IEEE CCNC 2026. The precise acceptance date is not supplied here.
@@ -36,3 +38,7 @@ The original README, Cantonese page, website page, authorship statement and lice
 - **Two-Boundary demo 0.1.2:** separate inspectable demonstration.
 
 Git history provides a dated project record. It does not by itself establish exclusive priority over every independently created work.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

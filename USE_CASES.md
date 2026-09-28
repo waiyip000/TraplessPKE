@@ -79,3 +79,11 @@ Any future transport-themed public example should use clearly fictional route fi
 This document adds the business mapping only. It does not claim a route-themed demonstration has already been executed, change the commercial baseline, publish the demo or disclose private implementation details.
 
 See [current status](CURRENT_STATUS.md), [design evolution](DESIGN_EVOLUTION.md) and [security scope](SECURITY_SCOPE.md).
+
+## Try the file workflow
+
+The public demo's [user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) explains sending and recovery, and its [owner walkthrough](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/WALKTHROUGH.md) explains actual byte comparison. Its [observation model](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/THREAT_MODEL.md) defines the inspection views. Use fictional candidate files for this demonstration. Download the [demo release](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2); no access to commercial source is needed.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

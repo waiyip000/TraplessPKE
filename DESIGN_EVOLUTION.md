@@ -51,3 +51,11 @@ The proposed [protected-transport use case](USE_CASES.md) gives the content/inte
 The mapping introduces a separate time condition: selected staff should learn the choice only at authorized release. That condition does not follow merely from the candidate/selector construction. Existing recovery works whenever the recipient has both the bundle and usable private-key access. Selection occurs before bundle finalization; a later route change requires a new bundle and a process for superseding earlier instructions.
 
 This application proposal preserves the original idea while distinguishing file-level implemented effects from additional dispatch-system requirements. It is not evidence of deployment or a new security result.
+
+## Inspect the implemented demonstration
+
+Use the demo's [protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md), [observation model](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/THREAT_MODEL.md), [walkthrough](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/WALKTHROUGH.md) and [peer-exchange instructions](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PEER_EXCHANGE.md) for implementation-specific details. [Functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md) identifies the tested 0.1.2 artifact; it does not establish equivalence with every historical proposal.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

@@ -16,6 +16,10 @@ The original August 2025 statement remains available unchanged in [the historica
 
 ## Attribution and implementation rights
 
-Please cite the author and the relevant [publication](PUBLICATIONS.md). The public research materials and planned demonstration have their stated licences. The private commercial implementation is a separate work and is not disclosed by this repository.
+Please cite the author and the relevant [publication](PUBLICATIONS.md). The research materials and published [demonstration](https://github.com/waiyip000/traplesspke-two-boundary-demo) have their stated licences. The private commercial implementation is a separate work and is not disclosed by this repository.
 
 Independent implementations of the published ideas should identify their own authors, methods and licences, retain required attribution when using licensed material, and avoid implying endorsement by the TraplessPKE author. See [LICENSING.md](LICENSING.md).
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

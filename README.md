@@ -8,6 +8,10 @@ TraplessPKE explores a distinction between obtaining candidate message contents 
 
 This repository is the research and project information hub. It preserves the original public record and documents subsequent development.
 
+**Start here:** [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Executable and release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md).
+
+This research repository is temporarily private for owner review. The separate demo and its downloads are public and self-contained.
+
 ## Proposed priority use case: protected transport
 
 Cash-in-transit, valuables-in-transit and VIP-in-transit operations are the author's proposed priority application scenario. Where an operator prepares several approved routes, each route plan becomes a candidate file; the sender's final route choice becomes the intended file. Authorized recipients recover that selection using private-key access.
@@ -65,3 +69,11 @@ Read [security scope](SECURITY_SCOPE.md) for the observer's information, permitt
 The original idea and project direction are attributed to **Wai Yip, WONG**. AI tools assisted research, implementation and documentation under the author's direction.
 
 Research and documentation in this repository are under [CC BY 4.0](LICENSE), unless individually noted. The separate demo source uses Apache-2.0 with its own dependency notices. The commercial implementation is separately licensed and is not included here. The IEEE-hosted article is governed by its applicable publication terms. [Full scope](LICENSING.md).
+
+## Latest demo check
+
+Demo 0.1.2 has [completed Windows functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md): all 14 commands, six core workflow families, both GPU example producers and 57/57 named application functions exercised. The result is scoped to the recorded Windows cases. No application update was required.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

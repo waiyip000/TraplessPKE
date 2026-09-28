@@ -1,5 +1,13 @@
 # Documentation changes
 
+## 28 September 2026 — repository linkage and current documentation
+
+- Reviewed every current project-authored Markdown document in both repositories.
+- Added reciprocal repository navigation and a guide to research, downloads, usage, protocol, validation and reporting.
+- Corrected stale planned/unpublished statements and separated private research access from public demo availability.
+- Linked the completed expanded Windows functional-validation summary.
+- Kept original whitepaper/licences, historical records, demo v0.1.2 assets and commercial implementation unchanged.
+
 ## 28 September 2026 — separate demo publication
 
 - Linked the public demo 0.1.2 source, standalone Windows executable, offline kit and user manual.
@@ -36,3 +44,7 @@ Prepared under temporary private visibility for owner review.
 - Added no commercial source, executable, private experiment record or demo code to this research repository.
 
 Republication remains pending owner review. This is a documentation update, not a cryptographic algorithm change, product rebuild or new security verdict.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

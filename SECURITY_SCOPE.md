@@ -43,7 +43,7 @@ For two candidates and a uniformly random hidden index, uninformed guessing succ
 
 Local functional acceptance exercises actual operations and failure handling. It supports the tested behavior and exact recorded artifact, not universal unbreakability.
 
-A blinded peer exchange needs a fixed public view, independent prediction submission before reveal, and a recorded accounting of outcomes and abstentions. Owner-authored teaching examples are identified separately. The intended demo publication will include its exact protocol, limitations and sanitized acceptance records.
+A blinded peer exchange needs a fixed public view, independent prediction submission before reveal, and a recorded accounting of outcomes and abstentions. Owner-authored teaching examples are identified separately. The published demo includes its [exact protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md), [observation model](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/THREAT_MODEL.md), [limitations](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/LIMITATIONS.md) and [functional acceptance scope](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/ACCEPTANCE.md). The [28 September Windows validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md) is a functional result, not independent peer evidence.
 
 “Oracleless” here describes the absence of an online owner service that confirms intended-file guesses. Ordinary local decryption, signature verification in the commercial application, and owner comparison still return results; the term does not mean every operation everywhere emits no feedback.
 
@@ -60,3 +60,7 @@ Limiting disclosure to designated staff requires access control and key custody 
 The commercial release has its own implementation and acceptance scope. It includes signature and vault workflows absent from the demo. Research publication, successful owner recovery and finite plan acceptance are distinct facts; none is an IEEE certification of commercial software security.
 
 For reports, see [SECURITY.md](SECURITY.md).
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

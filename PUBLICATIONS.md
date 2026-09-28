@@ -36,4 +36,8 @@ Licence: CC BY 4.0. Cite this document as the original whitepaper, separately fr
 
 ## Citing implementations
 
-Identify the exact implementation, version and artifact when discussing observed behavior. Commercial desktop 1.1.4 and demo 0.1.2 are separate artifacts. Cite the IEEE paper for the research, and the corresponding release and evidence for implementation results. The demonstration has not yet been publicly published.
+Identify the exact implementation, version and artifact when discussing observed behavior. Commercial desktop 1.1.4 and demo 0.1.2 are separate artifacts. Cite the IEEE paper for the research, and the corresponding release and evidence for implementation results. The demonstration is publicly released as [v0.1.2](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2), with [versioned source](https://github.com/waiyip000/traplesspke-two-boundary-demo/tree/v0.1.2), a [current user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) and a [dated functional-validation summary](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md). Cite the release/tag for tested application bytes; the main branch can receive later documentation updates.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

@@ -45,3 +45,13 @@ The demo uses ML-KEM-768 for both independently generated capabilities. Exposing
 [Authorship](https://github.com/waiyip000/TraplessPKE/blob/main/Author_Clarification.md) · [Licensing](https://github.com/waiyip000/TraplessPKE/blob/main/LICENSING.md) · [Reporting issues](https://github.com/waiyip000/TraplessPKE/blob/main/SECURITY.md)
 
 Research documentation: CC BY 4.0. Separate demo source: Apache-2.0. Commercial implementation and IEEE-hosted material have their own applicable terms.
+
+## Demonstration resources
+
+[Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) · [Protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md) · [Functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
+
+The research repository is currently private for owner review. Its links require access; the separate demo remains public. [Repository guide](https://github.com/waiyip000/TraplessPKE/blob/main/PROJECT_MAP.md).
+
+---
+
+[Research home](https://github.com/waiyip000/TraplessPKE/blob/main/README.md) · [Repository guide](https://github.com/waiyip000/TraplessPKE/blob/main/PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

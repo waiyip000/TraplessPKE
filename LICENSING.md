@@ -6,7 +6,7 @@ Updated 28 September 2026. Creator and copyright owner of the author's materials
 |---|---|
 | Original whitepaper and historical repository documentation | CC BY 4.0, as originally published |
 | Current research/project documentation in this repository | CC BY 4.0 unless an individual file states otherwise |
-| Separate Two-Boundary demonstration source | Apache-2.0 in its dedicated repository, with its own LICENSE and NOTICE |
+| Separate Two-Boundary demonstration source | Apache-2.0 in the [demo repository](https://github.com/waiyip000/traplesspke-two-boundary-demo), with its own [LICENSE](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/LICENSE) and [NOTICE](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/NOTICE) |
 | Third-party demonstration dependencies | Each dependency's own licence and notices |
 | Commercial desktop software and private implementation | Separate customer licence; commercial source is not included here |
 | IEEE-hosted article | Its applicable publication/copyright terms; linked here, not relicensed or redistributed |
@@ -24,3 +24,7 @@ The separately published Apache-2.0 demo permits reuse under that licence, inclu
 Only deliberately selected research documents, public-facing project information and separately approved demo artifacts belong in the public repositories. Private source, internal construction manuals, debug artifacts, private keys, passwords, owner truth files and internal evidence archives are excluded.
 
 Future public status changes do not expand the scope of the material intentionally included here. An IEEE manuscript should only be hosted after identifying its exact version and applicable posting permission.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)

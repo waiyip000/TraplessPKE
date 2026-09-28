@@ -44,3 +44,13 @@ This documentation adds no product capability. Current workflows select the inte
 This documentation refresh is under owner review with the repository temporarily private. Making it public again requires completion of that review. Original commits, the whitepaper PDF and release V1.0 remain preserved.
 
 See [SECURITY_SCOPE.md](SECURITY_SCOPE.md), [LICENSING.md](LICENSING.md) and [HISTORY.md](HISTORY.md).
+
+## Latest demonstration validation
+
+On 28 September 2026 the expanded sequential Windows suite completed: all 14 CLI commands, all six core workflow families, both optional iGPU example producers and observed execution of 57/57 named application functions. It recorded 80 terminal invocations and 81 core-worker invocations. Two local harness defects were repaired; no demo application change was required. See the demo's [dated result and limits](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
+
+Documentation on the main branches is maintained separately from the immutable demo v0.1.2 release assets. The [repository guide](PROJECT_MAP.md) identifies each repository's role and access conditions.
+
+---
+
+[Research home](README.md) · [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Demo manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)
