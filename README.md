@@ -1,209 +1,57 @@
-
-📄 This document is also available in [**Cantonese 中文（廣東話）** ](./README_Cantonese.md)
-
-
 # TraplessPKE
 
-> **"Quantum computing won. Impressive. You cracked a ciphertext. But not my message."**
+**Created and directed by Wai Yip, WONG.** Updated 28 September 2026.
 
-## 🧭 Overview
+[廣東話](README_Cantonese.md) · [Publications](PUBLICATIONS.md) · [History](HISTORY.md) · [Current status](CURRENT_STATUS.md)
 
-**TraplessPKE** is a structurally novel post-quantum cryptographic system for public-key encryption and message-bound digital signatures. It eliminates all traditional algebraic assumptions — including lattices, rings, primes, and isogenies — in favor of ambiguity, irreversible masking, and semantic gating.
+TraplessPKE explores a distinction between obtaining candidate message contents and identifying the sender's intended message. The sender chooses an intended file among candidate files; the authorized recipient uses private-key material to recover the selected file. The Two-Boundary account separates content access from intent identification and asks what an observer can infer under an explicitly defined exposure.
 
-The system operates with constant-time, stateless operations that preserve entropy and resist structural extraction. Its defense posture is not based on complexity, but on **non-discoverability**.
+This repository is the research and project information hub. It preserves the original public record and documents subsequent development.
 
-It is not just quantum-resistant — it is structurally silent. It doesn’t conceal meaning by computation. It conceals by epistemic blindness.
+## Research publication
 
-> **No algebra. No leakage. No feedback.**
-> **No primes. No lattices. No structure to attack.**
-> Only meaning for those who hold the key.
+Wai Yip Wong, **“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryptosystem,”** 2026 IEEE 23rd Consumer Communications & Networking Conference (CCNC), pp. 1–2.
 
----
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11366456) · [DOI: 10.1109/CCNC65079.2026.11366456](https://doi.org/10.1109/CCNC65079.2026.11366456) · [Citation and BibTeX](PUBLICATIONS.md)
 
-## 🔐 What It Offers
+The [original whitepaper v1.0](TraplessPKE_whitepaper_V1.0.pdf), dated 3 August 2025, remains unchanged as a historical document. It is distinct from the IEEE paper and the later executable implementations. See [design evolution](DESIGN_EVOLUTION.md).
 
-* **Post-Quantum Public-Key Encryption**
-* **Message-Bound Signature Generation and Verification**
-* **Zero-Knowledge Proof Compatibility**
-* **Constant-Time, Stateless, Hardware-Ready Primitives**
-* **No algebraic assumptions. Structureless Surface** (no lattices, no codes, no elliptic curves)
+## Current implementations
 
----
+| Subject | Status and scope |
+|---|---|
+| Commercial Windows application | Release 2 baseline / desktop **1.1.4**, assigned 28 September 2026. Provides key management, encryption/decryption, signing/verification, backup/restoration and job recovery. The commercial source and internal construction materials remain private. |
+| Two-Boundary demonstration | Separate inspectable Python implementation **0.1.2**. Two candidate files, public-key sending, private-key recovery, actual byte comparison and explicit content-exposure views. Local functional acceptance completed; public publication is pending. |
+| Original whitepaper release | GitHub tag **V1.0**, published 4 August 2025. This identifies the whitepaper release, not commercial application version 1.0.0 or the current desktop release. |
 
-## 📄 Whitepaper
+The demonstration is intended for a dedicated repository under Apache-2.0. A live download link will be added after publication. This repository contains no commercial source or commercial executable download.
 
-* [📘 TraplessPKE Whitepaper (v1.0)](./TraplessPKE_whitepaper_V1.0.pdf)
+## What the demonstration can show
 
-This document contains all formal descriptions, proofs, and algorithms, including:
+1. A sender explicitly selects one of two candidate files.
+2. Sending uses a public identity; receiving uses a private identity.
+3. A local owner walkthrough compares the actual recovered bytes with the selected original.
+4. A separate inspection workflow exposes both decoded candidates and the content capability while withholding the intent capability.
+5. Blinded peer exchange separates prediction submission from the later committed reveal.
 
-* Key generation, encryption, decryption
-* Signature scheme and verification
-* Security rationale for SD-SIHF (Selector Dual Inversion with Hidden Filtering)
+The demo uses independently generated content and intent key capabilities, both based on ML-KEM-768. Exposing the content capability is a specific exposure condition; it is not a demonstration of survival after a general break of ML-KEM affecting both capabilities. Local functional results are not an independently established security bound.
 
-## Author Clarification
+Read [security scope](SECURITY_SCOPE.md) for the observer's information, permitted conclusions, and limitations. Candidate plausibility and external context matter to intent inference. No universal unbreakability or whole-process confinement claim is made by these current implementation documents.
 
-* [Author Clarification: Role, Method, and Authorship Integrity](./Author_Clarification.md)
+## Navigate the project
 
-This document clarifies the authorship model, methodological structure, and use of advanced tooling in the development of TraplessPKE. It reflects a deliberate commitment to transparency, ethical authorship, and the evolving realities of modern independent research.
+- [Development chronology and original timestamps](HISTORY.md)
+- [Publications and attribution](PUBLICATIONS.md)
+- [Current commercial and demonstration status](CURRENT_STATUS.md)
+- [Original design and subsequent construction](DESIGN_EVOLUTION.md)
+- [Security scope and evidence boundaries](SECURITY_SCOPE.md)
+- [Authorship and tool assistance](Author_Clarification.md)
+- [Licensing and source separation](LICENSING.md)
+- [Reporting issues](SECURITY.md)
+- [Documentation changes](CHANGELOG.md)
 
-## 🧠 Ask the Agent
+## Attribution and licensing
 
-You may upload the TraplessPKE whitepaper to ChatGPT, Claude, Gemini, or other advanced reasoning agents and ask:
+The original idea and project direction are attributed to **Wai Yip, WONG**. AI tools assisted research, implementation and documentation under the author's direction.
 
-* “Why is TraplessPKE fundamentally incompatible with algebraic cryptanalysis?”
-* “How does ambiguity in f₂ and XOR-masked predicates enforce message privacy?”
-* “Explain the difference between Selector Dual Inversion and LWE-based assumptions.”
-* “Why does TraplessPKE not offer decryption oracles, and what security implications follow?”
-* “Simulate a blind signature verification using commitment τ and challenge hash logic.”
-
-Let the agent show you why **TraplessPKE doesn’t solve hard problems — it prevents them from forming.**
-
----
-
-## 🧬 Summary of Security Model
-
-TraplessPKE introduces and operates under the SD-SIHF hardness assumption:
-
-> Selector Dual Inversion with Hidden Filtering
-
-An adversary is given only:
-
-* A label $y_1$
-* A masked commitment $\tau$
-* A hash function $H$, with XOR masks $C, v, \gamma$ unknown
-
-The challenge is to produce $x \in f_2^{-1}(y_1)$ such that:
-
-$$
-H(x \oplus C \oplus v) = \tau \oplus \gamma 
-$$
-
-This challenge is unrecognizable and unsolvable without trapdoor knowledge. The scheme provides:
-
-* **Preimage hiding** through hash + XOR + entropy masking
-* **Output binding** enforceable only by trapdoor possession
-* **Non-replayable message-bound signatures**
-* **No algebraic pattern** — no reductions, no inversions
-
-> **The structure cannot be discovered. Only proven.**
-
----
-
-## ❓ On Technical Questions
-
-TraplessPKE assumes a basic understanding of cryptographic concepts. Questions about sampling, encoding, or efficiency are technical matters related to implementation — not flaws in system design.
-
-Readers unfamiliar with entropy filtering, preimage resistance, or predicate-based sampling are encouraged to consult standard cryptography references.
-
----
-
-## 🧠 Authorship and AI Clarification
-
-This innovation was not created by AI.
-
-It was architected and created by a human mind — **Wai Yip, WONG** — who defined what security means in this system, and who made every conceptual decision with clarity and intent.
-
-AI was used — powerfully — as a research assistant across roles. But the architectural act, the cryptographic judgment, and the invention itself belong to the author.
-
-We reject the framing that "AI involvement" implies AI authorship.
-
-> **Prompt engineering is authorship.**
-> **Orchestration is a form of creation.**
-> **This innovation belongs to the human who conceived it.**
-
-All attempts to reframe this work as AI-created are attempts to extract intellectual authorship through narrative distortion. We do not accept that.
-
-If someone believes the credit goes to AI or someone insists that using a tool makes the tool the owner, let them use AI and create a cryptosystem of their own.
-
-Then compare.
-
----
-
-## ❗ If AI Is the Author, Then Where Are the Breakthroughs?
-
-If AI alone were truly capable of inventing — of driving real breakthroughs — then by now:
-
-* We’d have solutions to the Millennium Prize Problems.
-* A simple prompt would’ve cracked cancer.
-* Someone would’ve typed “please explain” and unified quantum gravity.
-* And FDA-approved drugs would be rolling out from chat windows.
-
-But that’s not what’s happened. Why?
-
-* Because **AI isn’t a source of creative vision — it’s a tool, not a compass**.
-* Because **without clarity and structure, even good ideas fall apart**.
-* Because **no major breakthrough in history ever came from a blank page**.
-
-> AI can support. It can echo. It can simulate.
-> But it cannot originate intention.
-
-So when people claim that AI deserves the credit for work like TraplessPKE or when works are challenged on grounds of AI use, we ask:
-
-> **Then where are *your* breakthroughs?**
-
-This project was directed. It was built. It was authored.
-
-By a human.
-
----
-
-## 📜 License
-
-This project is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-You may use, adapt, and share the work — but must credit the author.
-
-**Author:** Wai Yip, WONG <br>
-🔗 [LinkedIn](https://www.linkedin.com/in/wai-yip-wong/)  
-💻 [GitHub](https://waiyip000.github.io/) <br>
-
----
-
-## 📐 Design Philosophy
-
-> *You got a message — just not mine.*
-
-TraplessPKE was designed under a different philosophy. It does not rely on hardness assumptions from algebraic structures. Its security comes from **withholding structure entirely**.
-
-* **Security by ambiguity**, not complexity.
-* **Opacity by design**, not obfuscation.
-* **Irreversibility without structure**, not through complexity theory.
-
-TraplessPKE never reveals what it protects — only proves it when allowed. Commitments are irreversible. Signatures are non-transferable. Verification without knowledge is impossible.
-
-This design philosophy is inseparable from the origin of the project itself. TraplessPKE was not produced by a committee, nor by institutional alignment. It was shaped by a solitary design intelligence — motivated by structural clarity, semantic defense, and cryptographic independence.
-
-The innovation resists being reverse-framed. It cannot be re-owned by a model that didn’t create it, nor repackaged under narratives of AI authorship. The system, like its encryption field, **permits meaning only where permission was given.**
-
----
-
-## 📖 Origin and Narrative
-
-TraplessPKE did not originate in academia, nor in formal cryptographic circles. It was designed and built from scratch — not derived, adapted, or borrowed.
-
-The invention was shaped by human reasoning, symbolic clarity, and a refusal to depend on algebraic hardness.
-
-Advanced AI tools were used to assist with documentation, math validation, code drafting, and proof-of-concept support — just as large research labs have technical staff across writing, analysis, and mathematics. These tools served as a powerful multi-role support team.
-
-But a research team without an architect builds nothing. The system — including its logic, framing, and originality — comes from the mind that led it.
-
-> It is not a dataset product.
-> It is not large-language guesswork.
-> It is authored.
-
----
-
-## 🏁 Final Note
-
-TraplessPKE is not just a cryptosystem. It is a new posture:
-
-* One where access replaces decryption
-* One where ambiguity defends intention
-* One where cryptographic silence replaces complexity
-
-> **If you want certainty — bring the key.**
-
-
-
-
-
+Research and documentation in this repository are under [CC BY 4.0](LICENSE), unless individually noted. The separate demo source uses Apache-2.0 with its own dependency notices. The commercial implementation is separately licensed and is not included here. The IEEE-hosted article is governed by its applicable publication terms. [Full scope](LICENSING.md).

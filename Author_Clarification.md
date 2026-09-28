@@ -1,55 +1,21 @@
-## Author Clarification: Role, Method, and Authorship Integrity
+# Authorship, direction and tool assistance
 
-This section serves to clarify the authorship model, methodological structure, and use of advanced tooling in the development of TraplessPKE. It reflects a deliberate commitment to transparency, ethical authorship, and the evolving realities of modern independent research.
+Updated 28 September 2026.
 
-### Authorial Role
+**Wai Yip, WONG is the creator and director of TraplessPKE.** The original concept, security objectives, project direction and decisions about development and publication originate with the author.
 
-TraplessPKE was **authored and architected** by Wai Yip, WONG. The system's high-level structure, cryptographic goals, design philosophy, and novel hardness assumptions (e.g., Selector Dual Inversion with Hidden Filtering — SD-SIHF) were created and directed entirely by the author. All conceptual framing, operational models, and design intent originated from human reasoning, not from machine generation.
+The author first documented the idea in a whitepaper and this GitHub repository, subsequently published research at IEEE CCNC 2026, and then directed construction of the commercial implementation and a separate inspectable demonstration.
 
-The author’s role encompassed:
+AI tools, including ChatGPT, assisted with research discussion, mathematical working, code drafting, implementation, troubleshooting and documentation under the author's direction. Tool assistance is described transparently; it is not presented as independent security certification.
 
-* Designing the trapdoorless cryptographic structure
-* Defining the semantic philosophy of ambiguity-based security
-* Shaping the algorithmic logic and selector-based mappings
-* Directing system-level evaluations and real-world deployment pathways
+A precise account distinguishes conceptual authorship, implementation work, documentation work and evidence supporting particular claims. Technical questions about any derivation or implemented effect are welcome and should identify the relevant document or version.
 
-This is fundamentally distinct from tool-assisted derivation. The system exists because the author created it, not because a model filled a blank page.
+## Historical statement
 
-### Use of Advanced AI Tools
+The original August 2025 statement remains available unchanged in [the historical commit](https://github.com/waiyip000/TraplessPKE/blob/6b813ee3d6c4a51629c7fea8db94bab0acacede8/Author_Clarification.md). This dated update preserves the attribution while describing subsequent development.
 
-The development of TraplessPKE employed large language models (LLMs), including ChatGPT, as **multi-role assistants** — similar in function to human research staff within academic or industrial labs.
+## Attribution and implementation rights
 
-AI tools were used to:
+Please cite the author and the relevant [publication](PUBLICATIONS.md). The public research materials and planned demonstration have their stated licences. The private commercial implementation is a separate work and is not disclosed by this repository.
 
-* Construct and test mathematical expressions
-* Validate symbolic transformations
-* Generate code drafts and performance estimations
-* Assist in clear documentation and formatting
-
-This use of tooling mirrors how large research teams employ mathematicians, physicists, software engineers, and technical writers. The difference is scale — not legitimacy.
-
-At no point were generative tools the source of system architecture or conceptual invention. All high-level decisions were made by the author, and all work reflects their original framing.
-
-### On Mathematical Detail and Defense
-
-The author does not claim to have personally derived or internally memorized every mathematical transformation, proof trace, or symbolic nuance used in TraplessPKE. Instead, the author verified alignment between intended cryptographic structure and the symbolic expressions produced via tool-assisted construction.
-
-This is the same practical stance taken by principal investigators, startup founders, or systems architects — who lead designs but delegate fine-grained derivation to collaborators. When deeper technical questions arise, the author is committed to engaging in good faith and transparently revisiting derivation steps as needed.
-
-### Transparency Over Pretense
-
-This clarification is offered not as a disclaimer, but as a model of **transparent authorship** in the age of AI-accelerated research. It rejects the false binary between “did everything yourself” vs. “AI wrote it for you.”
-
-Instead, it affirms a third path: **human-directed system invention** with the support of powerful computational collaborators — used ethically, and always under the authorship of the one who led.
-
-If questions of detail emerge, the appropriate answer may be:
-
-> "This symbolic path was constructed with tool assistance, under my direction. I can trace the logic with time, and I welcome technical review."
-
-This is not a sign of weakness — it is a **sign of truthful authorship** in an evolving research landscape.
-
-### Conclusion
-
-TraplessPKE was not created by AI. It was created by a person — with vision, judgment, and a defined security philosophy. AI tools helped carry the load. But authorship belongs where direction, structure, and invention originated: with Wai Yip, WONG.
-
-
+Independent implementations of the published ideas should identify their own authors, methods and licences, retain required attribution when using licensed material, and avoid implying endorsement by the TraplessPKE author. See [LICENSING.md](LICENSING.md).
