@@ -25,11 +25,11 @@ The source, internal construction tools, private evidence and private baseline a
 
 ## Open-source demonstration
 
-**Demo 0.1.2** is a separate two-candidate Python implementation. It includes public-key sending, private-key recovery, owner byte comparison, explicit candidate/content-capability exposure, and commitment/submission/reveal exchange.
+**Demo 0.1.4** is a separate two-candidate Python implementation. It includes public-key sending, private-key recovery, owner byte comparison, explicit candidate/content-capability exposure, and commitment/submission/reveal exchange.
 
 Local package construction and sequential functional acceptance completed successfully, with actual acceptance exit 0. The public release provides source, a standalone Windows x64 executable, the offline Python kit and user manual. Published asset downloads matched their recorded SHA-256 hashes, and the downloaded executable actually recovered the selected file with equal bytes. These are functional and distribution checks, not a security proof.
 
-[Dedicated demo repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md). Demo source licence: Apache-2.0, with dependency-specific notices. Commercial source is excluded.
+[Dedicated demo repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md). Demo source licence: Apache-2.0, with dependency-specific notices. Commercial source is excluded.
 
 The demo omits the commercial GUI, signature workflows, vault and commercial internals. It uses ML-KEM-768 and AES-256-GCM-SIV. Its published algorithm is intended to be fully inspectable, without a hidden commercial backend. No independent blinded security bound has been established.
 
@@ -47,9 +47,7 @@ See [SECURITY_SCOPE.md](SECURITY_SCOPE.md), [LICENSING.md](LICENSING.md) and [HI
 
 ## Latest demonstration validation
 
-On 28 September 2026 the expanded sequential Windows suite completed: all 14 CLI commands, all six core workflow families, both optional iGPU example producers and observed execution of 57/57 named application functions. It recorded 80 terminal invocations and 81 core-worker invocations. Two local harness defects were repaired; no demo application change was required. See the demo's [dated result and limits](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
-
-Documentation on the main branches is maintained separately from the immutable demo v0.1.2 release assets. The [repository guide](PROJECT_MAP.md) identifies each repository's role and access conditions.
+Demonstration **0.1.4** is corrected and functionally validated for its stated demonstration purposes. The core mathematics and wire format remain unchanged. See [recorded correctness and scope](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md). This is not a cryptographic security proof. Earlier release tags and their assets remain preserved.
 
 ---
 
