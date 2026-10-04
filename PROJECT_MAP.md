@@ -5,7 +5,7 @@ Updated 28 September 2026. Creator and project director: Wai Yip, WONG.
 | Destination | Purpose | Where to begin |
 | --- | --- | --- |
 | [TraplessPKE research hub](https://github.com/waiyip000/TraplessPKE) | Original whitepaper, authorship history, IEEE citation, project status and proposed applications | [Overview](README.md), [history](HISTORY.md), [publications](PUBLICATIONS.md) |
-| [Two-Boundary demonstration](https://github.com/waiyip000/traplesspke-two-boundary-demo) | Inspectable Apache-2.0 demo source, executable, manual and implementation issues | [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2), [user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) |
+| [Two-Boundary demonstration](https://github.com/waiyip000/traplesspke-two-boundary-demo) | Inspectable Apache-2.0 demo source, executable, manual and implementation issues | [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4), [user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) |
 | Commercial Release 2 / Windows desktop 1.1.4 | Separate private commercial implementation and customer workflows | [Public-facing status](CURRENT_STATUS.md); no commercial source or executable is distributed by either repository |
 
 ## Choose the document for your task
@@ -26,8 +26,8 @@ Both the research hub and the demonstration repository are now public. Their
 cross-references can be followed without private-repository access. The demo
 remains self-contained.
 
-Original whitepaper V1.0, commercial desktop 1.1.4 and demo 0.1.2 are separate
-version identities. Demo release v0.1.2 is immutable; main-branch documentation
+Original whitepaper V1.0, commercial desktop 1.1.4 and demo 0.1.4 are separate
+version identities. Tagged demo releases are immutable; main-branch documentation
 can receive later corrections. Neither public-facing repository includes the
 private commercial implementation.
 
