@@ -8,7 +8,7 @@ TraplessPKE explores a distinction between obtaining candidate message contents 
 
 This repository is the research and project information hub. It preserves the original public record and documents subsequent development.
 
-**Start here:** [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Executable and release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md).
+**Start here:** [Repository guide](PROJECT_MAP.md) · [Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Executable and release downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md).
 
 Both this research repository and the separate demo repository are public. The demo and its downloads remain self-contained.
 
@@ -35,10 +35,10 @@ The [original whitepaper v1.0](TraplessPKE_whitepaper_V1.0.pdf), dated 3 August 
 | Subject | Status and scope |
 |---|---|
 | Commercial Windows application | Release 2 baseline / desktop **1.1.4**, assigned 28 September 2026. Provides key management, encryption/decryption, signing/verification, backup/restoration and job recovery. The commercial source and internal construction materials remain private. |
-| Two-Boundary demonstration | Separate inspectable Python implementation **0.1.2**. Two candidate files, public-key sending, private-key recovery, actual byte comparison and explicit content-exposure views. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2). |
+| Two-Boundary demonstration | Separate inspectable Python implementation **0.1.4**. Two candidate files, public-key sending, private-key recovery, actual byte comparison and explicit content-exposure views. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4). |
 | Original whitepaper release | GitHub tag **V1.0**, published 4 August 2025. This identifies the whitepaper release, not commercial application version 1.0.0 or the current desktop release. |
 
-The demonstration is published in its [dedicated repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) under Apache-2.0. [Download the source, executable and user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2). This repository contains no commercial source or commercial executable download.
+The demonstration is published in its [dedicated repository](https://github.com/waiyip000/traplesspke-two-boundary-demo) under Apache-2.0. [Download the source, executable and user manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4). This repository contains no commercial source or commercial executable download.
 
 ## What the demonstration can show
 
@@ -72,7 +72,7 @@ Research and documentation in this repository are under [CC BY 4.0](LICENSE), un
 
 ## Latest demo check
 
-Demo 0.1.2 has [completed Windows functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md): all 14 commands, six core workflow families, both GPU example producers and 57/57 named application functions exercised. The result is scoped to the recorded Windows cases. No application update was required.
+Demonstration **0.1.4** is corrected and functionally validated for its stated purposes: public-key selection and exact recovery, examination of the content/intent boundary, and independent expert review, testing and attacks. The core construction is unchanged. See [recorded validation and its limits](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md); functional correctness does not establish cryptographic security.
 
 ---
 
