@@ -31,10 +31,10 @@ Wai Yip Wong，**“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryp
 | 項目 | 狀態及範圍 |
 |---|---|
 | Windows 商業應用程式 | 第 2 次發行基線／桌面版 **1.1.4**，於 2026 年 9 月 28 日指定。提供金鑰管理、加密／解密、簽署／驗證、備份／還原及工作恢復。商業原始碼同內部建構資料保持私有。 |
-| Two-Boundary 示範程式 | 獨立、可檢視嘅 Python 實作 **0.1.2**。提供兩個候選檔案、公鑰發送、私鑰還原、實際位元組比較同明確界定嘅內容暴露視圖。示範原始碼、Windows 可執行檔同使用手冊已[公開提供下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)。 |
+| Two-Boundary 示範程式 | 獨立、可檢視嘅 Python 實作 **0.1.4**。提供兩個候選檔案、公鑰發送、私鑰還原、實際位元組比較同明確界定嘅內容暴露視圖。示範原始碼、Windows 可執行檔同使用手冊已[公開提供下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4)。 |
 | 原始白皮書發行 | GitHub 標籤 **V1.0**，於 2025 年 8 月 4 日發佈。呢個係白皮書版本，唔係商業程式 1.0.0 或目前桌面版本。 |
 
-示範程式已喺[獨立儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)以 Apache-2.0 發佈；[下載原始碼、可執行檔同使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)。呢個儲存庫唔包含商業原始碼或商業程式下載。
+示範程式已喺[獨立儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)以 Apache-2.0 發佈；[下載原始碼、可執行檔同使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4)。呢個儲存庫唔包含商業原始碼或商業程式下載。
 
 ## 示範程式可以展示啲乜
 
@@ -68,10 +68,10 @@ Wai Yip Wong，**“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Cryp
 
 ## 儲存庫連結及最新功能驗證
 
-[儲存庫導覽](PROJECT_MAP.md)列明研究資料、示範原始碼、下載及問題回報分別放喺邊度。擁有者已批准公開分享，呢個研究儲存庫現已公開；[示範儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)、[下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)同[使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)已公開，唔需要研究儲存庫存取權。
+[儲存庫導覽](PROJECT_MAP.md)列明研究資料、示範原始碼、下載及問題回報分別放喺邊度。擁有者已批准公開分享，呢個研究儲存庫現已公開；[示範儲存庫](https://github.com/waiyip000/traplesspke-two-boundary-demo)、[下載](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4)同[使用手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md)已公開，唔需要研究儲存庫存取權。
 
-2026 年 9 月 28 日嘅[Windows 功能驗證](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md)完成全部 14 個命令、六組核心流程、兩個 GPU 範例產生器，並記錄到 57/57 個具名應用函式嘅執行。修正嘅係兩個本機測試工具問題，示範程式本身無需修改。呢個係指定測試範圍嘅功能結果，唔係不可破解嘅證明。
+示範 **0.1.4** 已修正並喺記錄嘅範圍內完成功能驗證，符合展示公鑰選擇與準確還原、檢視內容／意圖界線，以及供專家獨立理解、測試同攻擊已公開構造嘅目的。核心構造維持不變。[驗證結果同限制](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md)。功能正確唔等同密碼學安全已獲證明。
 
 ---
 
-[研究首頁](README.md) · [儲存庫導覽](PROJECT_MAP.md) · [示範原始碼](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [示範下載及手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2)
+[研究首頁](README.md) · [儲存庫導覽](PROJECT_MAP.md) · [示範原始碼](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [示範下載及手冊](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4)
