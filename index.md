@@ -31,8 +31,8 @@ Wai Yip Wong, **“TraplessPKE: A Selector-Based, Oracleless, Post-Quantum Crypt
 ## Current implementation status
 
 - **Commercial:** Release 2 / Windows desktop **1.1.4**, with key management, encryption/decryption, signing/verification, backup/restoration and recovery. Commercial source remains private.
-- **Demonstration:** separate inspectable Python **0.1.2**, with two candidates and explicit content/intent exposure scope. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2).
-- **Evidence:** functional acceptance applies to its recorded scope. No universal unbreakability or independent demo security bound is claimed.
+- **Demonstration:** separate inspectable Python **0.1.4**, with two candidates and explicit content/intent exposure scope. Demo source, Windows executable and user manual are [available for download](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4).
+- **Demonstration correctness:** 0.1.4 is corrected and functionally validated for its stated purposes, including selection/recovery and inspection of the content/intent boundary. Experts conduct their own analysis and attacks. Functional correctness does not establish cryptographic security.
 
 The demo uses ML-KEM-768 for both independently generated capabilities. Exposing the content capability does not demonstrate survival after a general break affecting both. See the exact [security scope](https://github.com/waiyip000/TraplessPKE/blob/main/SECURITY_SCOPE.md).
 
@@ -48,7 +48,7 @@ Research documentation: CC BY 4.0. Separate demo source: Apache-2.0. Commercial 
 
 ## Demonstration resources
 
-[Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.2) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) · [Protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md) · [Functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
+[Demo source](https://github.com/waiyip000/traplesspke-two-boundary-demo) · [Downloads](https://github.com/waiyip000/traplesspke-two-boundary-demo/releases/tag/v0.1.4) · [User manual](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/USER_MANUAL.md) · [Protocol](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/PROTOCOL.md) · [Functional validation](https://github.com/waiyip000/traplesspke-two-boundary-demo/blob/main/VALIDATION.md).
 
 Both the research repository and the separate demo are now public. [Repository guide](https://github.com/waiyip000/TraplessPKE/blob/main/PROJECT_MAP.md).
 
